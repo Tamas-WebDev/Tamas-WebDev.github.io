@@ -472,7 +472,7 @@ url("../img/controls.png")
   box-shadow: unset !important;
 }
 .team h1, .team h2 {
-  text-align: left !important;
+  /*text-align: left !important;*/
 }
 .team .people > div .face {
   height: 65px !important;
@@ -1242,11 +1242,13 @@ h2 {
     margin-top: -15px; } }
 @media (max-width: 768px) {
   h1 {
-    font-size: 55px;}
+    font-size: 55px; 
+    text-align: center;}
 
   h2 {
     font-size: 30px;
-    margin-top: -15px; }
+    margin-top: -15px; 
+    text-align: center;}
 
   .explanation {
     font-size: 16px; } }
