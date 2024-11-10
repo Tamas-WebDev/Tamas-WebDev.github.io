@@ -427,7 +427,7 @@ url("../img/controls.png")
     left: 377px;
     opacity: .25;
     width: 260px;
-    transform: rotate(-87deg) scale(1);
+    rotate: 270deg;
 }
 .tables-blob2 {
     position: absolute;
