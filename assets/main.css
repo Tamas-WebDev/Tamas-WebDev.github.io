@@ -435,7 +435,7 @@ url("../img/controls.png")
     left: 704px;
     opacity: .25;
     width: 220px;
-    transform: rotate(116deg) scale(1);
+    rotate: 470deg;
 }
 
 
