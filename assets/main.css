@@ -47,6 +47,40 @@ https://livefiredev.com/css-mask-image-examples-image-video-background/
 background: url('https://www.w3schools.com/css/img_5terre.jpg') repeat center center fixed;
 */
 
+
+
+
+
+/* rubik-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url(rubik-v28-regular.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body p {
+    font-family: "Rubik", Sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #d7deed;
+}
+ul li {
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #e6e8ed;
+
+}
+
+
+
+
+
+
 header .language_switcher li {
     padding: 12px;
 }
