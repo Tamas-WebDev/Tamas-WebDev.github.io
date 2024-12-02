@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>full-stack Dev</title>
+	<title>Full-Stack Dev</title>
 	<link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -66,11 +66,43 @@ function setbg() {
 
 
 <style>
+
+
+
+/* rubik-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/rubik-v28-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body p {
+    font-family: "Rubik", Sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #d7deed;
+}
+ul li {
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #e6e8ed;
+
+}
+
+
+
 .open_tomorrow .picture {
   float: none !important;
   margin: 0 auto !important;
   padding-right: 286px; padding-bottom: 240px;
 }
+
+
 
 @media (max-width: 1024px) {
 
@@ -182,10 +214,11 @@ function setbg() {
 				<h1 style="text-align: center;">Web-Dev</h1>
 				<h2 style="text-align: center;"><span>Full-Stack</span> Menyország</h2>
 				<div class="explanation" style="">
-					<p>Tóth Tamás vagyok, szabadúszó full-stack webfejlesztő és online marketing asszisztens. Örülök, hogy felkerestél.</p>
-					<p>Web-Programozást tanulok, a junior és medior (haladó) szint határán mozgok, bár még korlátozott ismeretekkel és szakmai tapasztalatokkal rendelkezem.</p>
-					<p>Igyekszek folyamatosan fejlődni, új készségeket és szakmai tapasztalatokat szerezni, hogy magabiztosabbá váljak a szakterületen.</p>
-					<p>Évek óta rendszeresen képzem magam és nagy erőfeszítéseket teszek, hogy versenyképes legyek a szakma senior fejlesztői között. Célom, hogy ügyfeleim számára kimagasló eredményeket és innovatív fejlesztéseket tudjak nyújtani.</p>
+					<p>Tóth Tamás vagyok, szabadúszó full-stack webfejlesztő és marketing asszisztens. Köszönöm, hogy megkerestél.</p>
+					<p>Web-Fejlesztést, Web-Programozást tanulok (PHP, JS, HTML, CSS), a junior és medior (kezdő és haladó) szint határán mozgok.</p>
+					<p>Bár még korlátozott ismeretekkel és szakmai tapasztalatokkal rendelkezem, igyekszek folyamatosan tovább fejlődni, új készségeket és szakmai tapasztalatokat szerezni, hogy magabiztosabbá váljak a szakterületen.</p>
+					<p>Rendszeresen képzem magam és nagy erőfeszítéseket teszek, hogy versenyképes legyek a szakma Senior fejlesztői között. </p>
+          <p>Célom, hogy ügyfeleim számára kimagasló eredményeket és innovatív fejlesztéseket tudjak nyújtani.</p>
 					
 				</div>
 				<div class="actions" style="display:none; height:0;">
@@ -216,7 +249,7 @@ function setbg() {
 
 
 		</div>
-	</div><!-- /open_tomorrow -->
+	</div><!-- /open -->
 
 
 
@@ -293,8 +326,8 @@ function setbg() {
 }
 .ui4 {
     position: absolute;
-    top: -22px;
-    left: -61px;
+    top: 9px;
+    left: -15px;
     width: 40%; z-index: 2;
 }
 .ui5 {
@@ -329,13 +362,13 @@ function setbg() {
 <div class="how_it_works hidden visible animated fadeIn">
 	<div class="centered">
 		<div class="text">
-			<h2><span>Tapasztalatok</span></h2>
+			<h2>Tapasztalatok</h2>
 			<div class="explanation">
-				<p>Különböző iparágakból érkező ügyfelekkel, kisvállalkozásokkal és vállalati vezetőkkel dolgoztam már együtt, Magyarországról és külföldről egyaránt.</p>
-				<p>Hozzájárulásommal segítettem induló vállalkozót és start-up-ot is a növekedésben. Tapasztalatokat szereztem digitális ügynökséggel való együttműködés során. Ügyfeleim bizalmának köszönhetően nemcsak szakmai fejlődést értem el, hanem értékes kapcsolatokra is szert tettem.</p>
+				<p>Különböző iparágakból érkező ügyfelekkel, kisvállalkozóval, vállalat-vezetővel dolgoztam már együtt. Magyarországról és külföldről is voltak ügyfeleim egyaránt.</p>
+				<p>Hozzájárulásommal segíthettem induló vállalkozót és start-up-ot is a növekedésben. Szereztem tapasztalatokat digitális ügynökséggel való együttműködés során is.</p>
+        <p>Ügyfeleim bizalmának köszönhetően nemcsak szakmai fejlődést értem el, hanem értékes kapcsolatokra is sikerült szert tennem.</p>
 			</div>
 			<div class="actions">
-				<!-- <a href="#" class="btn_color">Learn More</a>   -->
 			</div>
 		</div>
 
@@ -462,7 +495,7 @@ function setbg() {
 			</svg>			
 			
 			<h1>Szolgáltatások</h1>
-			<h2><span>Megoldások</span></h2>
+			<h2><span>Fejlesztések</span></h2>
 			<div class="people">
 				<div>
 					<div class="face">
@@ -695,29 +728,17 @@ function setbg() {
 				<h1>Szinergia</h1>
 				<h2><span>UI/UX</span> Design</h2>
 				<div class="explanation">
-					<p>Célom, hogy gyors, tiszta és könnyen karbantartható, technológiailag korszerű, innovatív weboldalakat és webes alkalmazásokat hozzak létre. <br>
-					Munkáim moduláris felépítésűek, így a későbbiekben is könnyedén bővíthetők. 
-					Fontos számomra, hogy az általam fejlesztett oldalak könnyen áttekinthetők, intuitív módon működjenek és bárki által egyszerűen használhatók legyenek.
+					<p>A Célom, hogy Gyors, Tiszta és könnyen karbantartható, technológiailag korszerű, innovatív weboldalakat és webes alkalmazásokat hozzak létre.</p>
+					<p>Munkáim moduláris felépítésűek, így a későbbiekben is könnyedén bővíthetők. 
+					Fontos számomra, hogy az általam fejlesztett oldalak könnyen áttekinthetők, intuitív módon működjenek és bárki által egyszerűen kezelhetőek legyenek.
 					</p>
-					<p>Olyan webes felület létrehozására törekszem amely felkelti és megragadja a látogató figyelmét és nem teszi ki az információs túlterhelésnek a felhasználót.
+					<p>Olyan webes felület létrehozására törekszem amely felkelti és megragadja a látogatók figyelmét, de nem teszi ki a felhasználót az információs túlterhelésnek.
 					</p>
 					<div class="actions">
 					<a href="#faq" class="btn"><span>Mi az a UI/UX Design?</span></a>
 					</div>
 					
-				</div><!-- 
-				<div class="actions">
-					<ul class="dropdown">
-						<li><button class="btn_color selected">Whitepaper</button></li>
-						<li><a href="#">Spanish</a></li>
-						<li><a href="#" class="active">Italian</a></li>
-					</ul>
-					<ul class="dropdown">
-						<li><button class="btn_color selected">Onepager</button></li>
-						<li><a href="#">Spanish</a></li>
-						<li><a href="#">Italian</a></li>
-					</ul>
-				</div>  -->
+				</div>
 			</div>
 
 
@@ -862,13 +883,16 @@ function setbg() {
 			<h1>Orientált</h1>
 			<h2>Webes <span>Megjelenés</span></h2>
 			<div class="explanation">
-				<p>Az egységes és letisztult megjelenés kidolgozása mellett arra törekszem, hogy a tartalom már az első pillanatokban pozitív benyomást keltsen a felhasználókban, kellemes élményt nyújtva.<br> Továbbá, hogy a megrendelő vállalkozás célterületére és annak ügyfélkörére orientált webes megjelenéssel rendelkezzen, valamint a szöveges tartalom releváns és megfelelően kidolgozott legyen, az online marketing szempontjai szerint is.</p>
+				<p>Az egységes és letisztult megjelenés kidolgozása mellett arra törekszem, hogy a tartalom már az első pillanatokban pozitív benyomást keltsen a látogatóban.</p>
+        <p>Továbbá, hogy a megrendelő vállalkozás célterületére és annak ügyfélkörére orientált webes megjelenéssel rendelkezzen, valamint a szöveges tartalom releváns és megfelelően kidolgozott legyen az online marketing szempontjai szerint is.</p>
 
-				<p>Ez a szinergia lehetővé teszi a weboldal számára, hogy az első vizuális találkozás alkalmával és az első elolvasott bekezdésekkel már képes legyen felkelteni egy minimális bizalmat és érdeklődést. Továbbá lehetővé teszi, hogy a kritikus tartalmak irányába tereljük a látogatót.</p>
-				<p>Ez végül a rendelés leadásába vagy ügyfél-megkeresésbe konvertálódhat át, ezzel növelve az üzleti forgalmat is.</p>
+				<p>Ez a szinergia lehetővé teszi a weboldal számára, hogy az első vizuális találkozás alkalmával és az első elolvasott bekezdésekkel már képes legyen felkelteni egy minimális bizalmat és érdeklődést. Továbbá képessé teszi arra, hogy a látogatót a kritikus tartalmak irányába terelje.</p>
+
+
+        <p>A weboldal tartalmának és megjelenésének optimalizálásával sikerrel növelhető az üzlet forgalma és a Konverziós Ráta növelése.</p><p>Ami végül a rendelés leadások és az ügyfél-megkeresések számát növeli.</p>
 				
 				<p>
-				A munkám során egymásba ötvözöm az analitikai szigort a szabad és kreatív innovációval, hogy olyan megoldást nyújtsak amely a célnak megfelel, egyszerű és nem túlbonyolított.<br> Költség és Időhatékony, amely nem csak megfelel a megrendelő számára, de remélhetőleg felül is múlja az elvárásokat, javítva az üzlet eredményességét.
+				A munkám során egymásba ötvözöm az analitikai szigort a szabad és kreatív innovációval, hogy olyan megoldást nyújtsak amely a célnak megfelel, egyszerű és nem túlbonyolított.<br> Költség és Időhatékony, amely nem csak megfelel a megrendelő számára, de remélhetőleg felül is múlja az elvárásokat, javítva a vállalkozás eredményességét.
 				</p>
 				<p>
 					<div class="actions" style="text-align:center;">
@@ -906,25 +930,24 @@ function setbg() {
 				<div class="steps">
 					<div>
 						<div class="number"><img class="lazy" style="width: 200px;" data-src="./assets/ui1.webp" alt=""></div>
-						<p>Online Marketing és Üzleti Stratégia Tervezés.</p>
-						<p>Egyszerűbb PHP és Javascript alkalmazások fejlesztése.</p>
+						<p>Online Marketing és Üzlet Stratégia</p>
+						<p>PHP és Javascript Program Fejlesztés</p>
 						<p>Webes Alkalmazások</p>
 						<p>Üzletmenet Automatizálás</p>
-						<p>Grafika, Animáció</p>
-						
+						<p>Grafika / Animáció</p>
 					</div>
 					<div>
 						<div class="number"><img class="lazy" style="width: 200px;" data-src="./assets/ui4.webp" alt=""></div>
-						<p>UI/UX Felhasználói Felület Tervezés.</p>
-						<p>Márka-Arculat Tervezés</p>						
-						<p>CRM </p>
+						<p>UI/UX Felhasználói Felület</p>
+						<p>MárkaArculat Tervezés</p>						
+						<p>CRM</p>
 						<p>Email marketing</p>
 						<p>Online Termék Kalkulátor</p>
 						<p>Online Időpontfoglaló</p>
 					</div>
 					<div>
 						<div class="number"><img class="lazy" style="width: 200px;" data-src="./assets/ui5.webp" alt=""></div>
-						<p>Webanalitika, Teljesítmény Audit és Adatelemzés.</p>
+						<p>Webanalitika, Teljesítmény Audit és Adatelemzés</p>
 						<p>Online Hirdetések<br>Google Ads</p>
 						<p>Betöltési Idő Optimalizálás</p>
 						<p>Domain / E-mail / Tárhely Ügyintézés</p>
@@ -939,10 +962,6 @@ function setbg() {
 			</div>
 		</div>
 	</div><!--/sales-->
-
-
-
-
 
 
 
@@ -1143,7 +1162,7 @@ function setbg() {
 						</div>
 						<div class="info">
 							<div class="data">
-								<div>Könnyen kezelhető</div>
+								<div>Könnyen Kezelhető</div>
 								<div>Letisztult</div>
 								<div>Átlátható</div>
 								<div>Moduláris</div>
@@ -1161,8 +1180,8 @@ function setbg() {
 					</div>
 					<div class="info">
 						<div class="data">
-							<div>Kreatív grafikai tervezés</div>
-							<div>Egységes szín és formavilág</div>
+							<div>Kreatív Tervezés</div>
+							<div>Egységes Formavilág</div>
 							<div>Képernyő Optimalizált</div>
 							<div>Magas szintű biztonság</div>
 							<div>Gyors betöltési idő</div>
@@ -1180,10 +1199,11 @@ function setbg() {
 					<div class="info">
 						<div class="data">
 							<div>Konverzió Optimalizált</div>
+              <div>Kereső Optimalizált</div>
+              <div>Google Optimalizált</div>
 							<div>Böngészőfüggetlen</div>
 							<div>Bővíthető</div>
 							<div>Több nyelvű</div>
-							<div>Google Optimalizált</div>
 						</div>
 					</div>
 				</div>
@@ -1262,15 +1282,14 @@ function setbg() {
 <img class="earn-spot2 floatfast rotatefast" src="./assets/54d.png" style="">
 			<div class="text">
 				<h1 style="font-size: 85px;">Full Stack</h1>
-				<h2><span>Tervezési Folyamat</span></h2>
+				<h2><span>Fejlesztések</span></h2>
 				<div class="explanation">
-					<p>Igyekszem a legújabb és leghatékonyabb technológiai eszközöket is alkalmazni, valamint a legjobb gyakorlatokat és technikai ismereteket is alaposan elsajátítani és felhasználni a munkavégzés során.<br> Végig azt helyezem fókuszba, hogy olyan megoldásokat szállítsak amelyek megfelelnek ügyfeleim konkrét igényeinek és üzleti céljainak.</p>
-					<p>A láncolat végén, a tervezői megfontolások középpontjában végső soron mindig a végfelhasználó áll.</p>
+					<p>Igyekszem a legújabb és leghatékonyabb technológiai eszközöket is alkalmazni, valamint a legjobb módszereket és technikai ismereteket is alaposan elsajátítani majd felhasználni a munkavégzés során.</p>
+          <p>Azt helyezem a fókuszba, hogy olyan megoldásokat szállítsak amelyek megfelelnek ügyfeleim konkrét igényeinek és üzleti céljainak.</p>
 					<p>Full Stack fejlesztőként nyújtom szolgáltatásaimat, és bármilyen méretű vállalkozással vagy ügynökséggel örömmel dolgozom együtt.</p>
 					<div class="actions">
-					<a href="#faq" class="btn"><span>Full Stack fejlesztő</span></a>
+					<a href="#faq" class="btn"><span>Full Stack Fejlesztő</span></a>
 					</div>
-					<p>Szabadidőmben szeretek utazni, túrázni, felfedezni különleges természeti tájakat, valamint rajongok a vizuális művészetekért és a zenélésért.</p>
 				</div>
 			</div>
 			<div class="apps" style="height: 803px;">
@@ -1309,17 +1328,6 @@ function setbg() {
 
 
 
-	<div class="sales hidden visible animated fadeIn" style="display:none; height:0;">
-		<div class="centered">
-			<h1>Sales</h1>
-			<h2>Token <span>Sales</span></h2>
-			<div class="explanation">All&nbsp;eligible participants may apply.<br>Minimum participation is not limited.</div>
-
-			
-		</div>
-	</div><!--/sales-->
-
-
 
 
 
@@ -1350,11 +1358,11 @@ function setbg() {
 }
 .blob1-token {
     position: absolute;
-    top: -231px;
-    right: -199px;
-    width: 353px;
+    top: -207px;
+    right: -151px;
+    width: 390px;
     opacity: .35; pointer-events: none;
-    transform: rotate(20deg); pointer-events: none;
+    rotate: 32deg;
 }
 .spot1-token {
     position: absolute;
@@ -1429,7 +1437,7 @@ function setbg() {
 					</div>
 					<div>
 						<p>Bemutatkozó weboldal</p>
-						<p>Fogadó oldal <span style="color: #3eafff;">(landing page)</span></p>
+						<p><span style="color: #3eafff;">Landing page</span></p>
 						<p>Online Magazin</p>
 						<p>Webportál</p>
 						<p>Nagyvállalati weboldal</p>
@@ -1482,7 +1490,7 @@ function setbg() {
 }
 .blob2-mission {
     position: absolute;
-    top: -215px;
+    top: -260px;
     right: 19px;
     width: 287px;
     opacity: .2; pointer-events: none;
@@ -1627,7 +1635,7 @@ function setbg() {
 				<h1 style="font-size: 85px;">+1 </h1>
 				<h2><span>Dimenzió</span></h2>
 				<div class="explanation">
-					<p>Magánszemélyek megkereséseit is szívesen fogadom. Középtávú célom a szakmai tapasztalatok bővítése, erős szakmai alapok megszerzése, valamint egy szilárd tudásbázis és kapcsolati Szakmai-Hálózat kiépítése.</p>
+					<p>Magánszemélyek megkereséseit is szívesen fogadom. Hosszútávú célom a szakmai tapasztalatok bővítése, az erős szakmai alapok megszerzése és egy szilárd tudásbázis felépítése.</p>
 					<p>Tudásommal és szilárd törekvéssel segítem azokat az ügyfeleket akik együttműködést keresnek, készek a közös gondolkodásra és alkotásra.</p>
 					<p>Szívesen dolgozom együtt azokkal akik értéket kívánnak teremteni, és nyitni szeretnének egy szélesebb, tágasabb piaci területre az online térben. Segítem őket abban, hogy vállalkozásuk működését és láthatóságát egy új dimenzióba, egy magasabb szintre tudják emelni.</p>
 				</div>
@@ -1808,24 +1816,6 @@ function setbg() {
 
 
 
-<!--
-	<div class="join_us hidden visible animated fadeIn" style="display:none; height:0;">
-		<div class="centered">
-			<div class="text">
-				<h1>Join</h1>
-				<h2>Join Us in <span>Telegram</span></h2>
-				<div class="explanation">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							In nec nibh vitae erat efficitur faucibus. Duis tincidunt, 
-							ex in matytis viverra.</p>
-				</div>
-				<div class="actions">
-					<a href="#" class="btn_color">Learn More</a>
-				</div>
-			</div>
-			<div class="picture"><img src="./assets/join_us.pngggg" alt=""></div>
-		</div>
-	</div>--> <!-- /join_us-->
 </div>
 
 

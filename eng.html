@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>full-stack Dev</title>
+	<title>Full-Stack Dev</title>
 	<link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -21,7 +21,7 @@ function setbg() {
 	    html = document.documentElement;
 	/*var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight ); */
 	var height =  body.scrollHeight ;
-	height = height - 60;
+	height = height - 100;
 
 	console.log(height);
 	var background = document.getElementById('background-mask'); 
@@ -66,11 +66,43 @@ function setbg() {
 
 
 <style>
+
+
+
+/* rubik-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/rubik-v28-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body p {
+    font-family: "Rubik", Sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #d7deed;
+}
+ul li {
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #e6e8ed;
+
+}
+
+
+
 .open_tomorrow .picture {
   float: none !important;
   margin: 0 auto !important;
   padding-right: 286px; padding-bottom: 240px;
 }
+
+
 
 @media (max-width: 1024px) {
 
@@ -182,9 +214,11 @@ function setbg() {
 				<h1 style="text-align: center;">Web-Dev</h1>
 				<h2 style="text-align: center;"><span>Full-Stack</span> Heaven</h2>
 				<div class="explanation" style="">
-					<p>I am Tamás Tóth, a freelance full-stack web developer and online marketing assistant. I'm glad you visiting me.</p>
-					<p>I'm studying web programming, I'm on the border between junior and medior (advanced) level, although I still have limited knowledge and professional experience. I am trying to continuously improve, gain new skills and professional experience to become more confident in the field.</p>
-					<p>I have been training regularly for years and make great efforts to be competitive among the senior developers in the industry. My goal is to deliver outstanding results and innovative developments for my clients.</p>
+<p>I am Tamás Tóth, a freelance full-stack web developer and marketing assistant. Thank you for reaching out to me.</p>
+<p>I am studying Web Development, Web Programming (PHP, JS, HTML, CSS), I am on the border between junior and medior (beginner and advanced) levels.</p>
+<p>Although I still have limited knowledge and professional experience, I try to continuously develop myself, gain new skills and professional experience to become more confident in my field.</p>
+<p>I train regularly and make great efforts to be competitive among the Senior developers in the profession. </p>
+<p>My goal is to provide my clients with outstanding results and innovative developments.</p>
 					
 				</div>
 				<div class="actions" style="display:none; height:0;">
@@ -214,9 +248,8 @@ function setbg() {
 
 
 
-
 		</div>
-	</div><!-- /open_tomorrow -->
+	</div><!-- /open -->
 
 
 
@@ -233,7 +266,7 @@ function setbg() {
 
 .mobil1 {
     position: absolute;
-		top: -102px;
+	top: -102px;
     left: -244px;
     width: 1008px;
 }
@@ -293,8 +326,8 @@ function setbg() {
 }
 .ui4 {
     position: absolute;
-    top: -22px;
-    left: -61px;
+    top: 9px;
+    left: -15px;
     width: 40%; z-index: 2;
 }
 .ui5 {
@@ -303,9 +336,6 @@ function setbg() {
     left: 160px;
     width: 40%; z-index: 3;
 }
-
-
-
 
 
 
@@ -323,57 +353,56 @@ function setbg() {
     width: 410px;
     transform: rotate(-162deg) scale(2);
 	}
+
 }
 
 </style>
 
 
-	<div class="how_it_works hidden visible animated fadeIn">
-		<div class="centered">
-			<div class="text">
-				<h1>Start</h1>
-				<h2><span>Experiences</span></h2>
-				<div class="explanation"> 
-					<p style="padding-top: 120px;">
-					I have worked with clients, small businesses and corporate executives from various industries, both in Hungary and abroad.</p>
-					<p>I have also helped start-up and entrepreneurs to grow. I have gained experience working with digital agency. Thanks to the trust of my clients, I have not only achieved professional growth, but also gained valuable contacts.</p>
-				</div>
-				<div class="actions">
-					<!-- <a href="#" class="btn_color">Learn More</a>   -->
-				</div>
+<div class="how_it_works hidden visible animated fadeIn">
+	<div class="centered">
+		<div class="text">
+<h2>Experiences</h2>
+<div class="explanation">
+<p>I have worked with clients from different industries, small entrepreneurs, and company leaders. I have had clients from both Hungary and abroad.</p>
+<p>With my contribution, I was able to help both budding entrepreneurs and start-ups grow. I also gained experience while working with a digital agency.</p>
+<p>Thanks to the trust of my clients, I have not only achieved professional development, but also managed to gain valuable relationships.</p>
 			</div>
-
-
-
-			<div class="player">
-				<div class="gradient-tables" style="opacity: 1;"></div>
-				<svg class="tables-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-				  <path fill="#3F4658" d="M54.8,-59C65.6,-44.1,65,-22,63.4,-1.6C61.8,18.8,59.2,37.7,48.4,52.7C37.7,67.8,18.8,79,-0.3,79.3C-19.5,79.6,-39,69,-54.9,54C-70.9,39,-83.4,19.5,-75.7,7.6C-68.1,-4.2,-40.4,-8.4,-24.4,-23.3C-8.4,-38.2,-4.2,-63.8,8.9,-72.7C22,-81.7,44.1,-73.9,54.8,-59Z" transform="translate(100 100)" />
-				</svg>
-
-				<img class="lazy mobil1" data-src="./assets/mobil1.webp">
-				<img class="lazy blockblue1" data-src="./assets/blockblue1.webp">
-				<img class="lazy ub1" data-src="./assets/ub1.webp">
-				<img class="lazy ub3" data-src="./assets/ub3.webp">
-				<img class="lazy block1" data-src="./assets/block1.webp">
-				<img class="lazy blank1" data-src="./assets/blank1.webp">
-				<img class="lazy ui1 floatveryslow" data-src="./assets/ui1.webp">
-				<img class="lazy ui3 floatveryslow" data-src="./assets/ui3.webp">
-				<img class="lazy ui4 floatveryslow" data-src="./assets/ui4.webp">
-				<img class="lazy ui5 floatveryslow" data-src="./assets/ui5.webp">
-
-
+			<div class="actions">
 			</div>
+		</div>
 
-			<svg class="tables-blob1 floatslow rotateslow" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-			  <path fill="#3F4658" d="M51.3,-50.2C67.8,-34.9,83.2,-17.4,85.7,2.5C88.2,22.4,77.8,44.9,61.3,58.7C44.9,72.6,22.4,77.9,7.6,70.3C-7.3,62.7,-14.5,42.2,-24.2,28.4C-33.9,14.5,-46.1,7.3,-52.3,-6.2C-58.5,-19.7,-58.8,-39.4,-49.1,-54.7C-39.4,-70,-19.7,-80.9,-1.1,-79.8C17.4,-78.6,34.9,-65.5,51.3,-50.2Z" transform="translate(100 100)" />
+
+
+		<div class="player">
+			<div class="gradient-tables" style="opacity: 1;"></div>
+			<svg class="tables-blob " viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+			  <path fill="#3F4658" d="M54.8,-59C65.6,-44.1,65,-22,63.4,-1.6C61.8,18.8,59.2,37.7,48.4,52.7C37.7,67.8,18.8,79,-0.3,79.3C-19.5,79.6,-39,69,-54.9,54C-70.9,39,-83.4,19.5,-75.7,7.6C-68.1,-4.2,-40.4,-8.4,-24.4,-23.3C-8.4,-38.2,-4.2,-63.8,8.9,-72.7C22,-81.7,44.1,-73.9,54.8,-59Z" transform="translate(100 100)" />
 			</svg>
-			<svg class="tables-blob2 floatslow rotateslow" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-			  <path fill="#3F4658" d="M45.8,-41.1C62,-29.7,79.5,-14.8,81.9,2.4C84.4,19.7,71.8,39.5,55.6,42.1C39.5,44.8,19.7,30.4,0.4,30C-19,29.6,-37.9,43.3,-45.8,40.6C-53.6,37.9,-50.3,19,-46.2,4.1C-42.1,-10.7,-37.1,-21.4,-29.2,-32.8C-21.4,-44.2,-10.7,-56.3,2.1,-58.3C14.8,-60.4,29.7,-52.5,45.8,-41.1Z" transform="translate(100 100)" />
-			</svg>
+
+			<img class="lazy mobil1" data-src="./assets/mobil1.webp">
+			<img class="lazy blockblue1" data-src="./assets/blockblue1.webp">
+			<!-- <img class="lazy ub1" data-src="./assets/ub1.webp"> -->
+
+			<img class="lazy block1" data-src="./assets/block1.webp">
+			<img class="lazy blank1" data-src="./assets/blank1.webp">
+			<!-- <img class="lazy ui1 floatveryslow" data-src="./assets/ui1.webp"> -->
+			<img class="lazy ui3 floatveryslow" data-src="./assets/ui3.webp">
+			<img class="lazy ui4 floatveryslow" data-src="./assets/ui4.webp">
+			<img class="lazy ui5 floatveryslow" data-src="./assets/ui5.webp">
+
 
 		</div>
-	</div><!-- /how_it_works-->
+
+		<svg class="tables-blob1 floatslow rotateslow" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+		  <path fill="#3F4658" d="M51.3,-50.2C67.8,-34.9,83.2,-17.4,85.7,2.5C88.2,22.4,77.8,44.9,61.3,58.7C44.9,72.6,22.4,77.9,7.6,70.3C-7.3,62.7,-14.5,42.2,-24.2,28.4C-33.9,14.5,-46.1,7.3,-52.3,-6.2C-58.5,-19.7,-58.8,-39.4,-49.1,-54.7C-39.4,-70,-19.7,-80.9,-1.1,-79.8C17.4,-78.6,34.9,-65.5,51.3,-50.2Z" transform="translate(100 100)" />
+		</svg>
+		<svg class="tables-blob2 floatslow rotateslow" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+		  <path fill="#3F4658" d="M45.8,-41.1C62,-29.7,79.5,-14.8,81.9,2.4C84.4,19.7,71.8,39.5,55.6,42.1C39.5,44.8,19.7,30.4,0.4,30C-19,29.6,-37.9,43.3,-45.8,40.6C-53.6,37.9,-50.3,19,-46.2,4.1C-42.1,-10.7,-37.1,-21.4,-29.2,-32.8C-21.4,-44.2,-10.7,-56.3,2.1,-58.3C14.8,-60.4,29.7,-52.5,45.8,-41.1Z" transform="translate(100 100)" />
+		</svg>
+
+	</div>
+</div><!-- /how_it_works-->
 
 
 
@@ -414,7 +443,7 @@ function setbg() {
     left: -96px;
     width: 396px;
     opacity: .15; pointer-events: none;
-    transform: rotate(-33deg) scale(1);
+    rotate: 318deg
 }
 .gradient-team1 {
     position: absolute;
@@ -458,15 +487,15 @@ function setbg() {
 	<div class="team hidden visible animated fadeIn">
 		<div class="centered">
 			<div class="gradient-team1" style="opacity: .4;"></div>
-			<svg class="team1-blob1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+			<svg class="team1-blob1 " viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 				  <path fill="#3F4658" d="M56.2,-60.7C66.6,-45.8,64.5,-22.9,55.4,-9.2C46.2,4.5,29.9,9.1,19.5,18.8C9.1,28.5,4.5,43.4,-9.1,52.5C-22.7,61.6,-45.4,64.9,-57.2,55.1C-69,45.4,-69.9,22.7,-63.9,6.1C-57.8,-10.6,-44.8,-21.2,-33,-36.1C-21.2,-51,-10.6,-70.2,6.2,-76.3C22.9,-82.5,45.8,-75.6,56.2,-60.7Z" transform="translate(100 100)" />
 				</svg>
 			<svg class="team1-blob2 floatslow rotateslow" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 			  <path fill="#3F4658" d="M28.5,-23.9C29.6,-14.6,18,-5.4,11.1,7.8C4.3,21,2.1,38.2,-12.9,45.7C-27.9,53.1,-55.7,50.7,-64.4,36.5C-73,22.2,-62.4,-3.8,-48.4,-20.5C-34.5,-37.3,-17.3,-44.6,-1.8,-43.6C13.7,-42.6,27.4,-33.2,28.5,-23.9Z" transform="translate(100 100)" />
 			</svg>			
 			
-			<h1>Services</h1>
-			<h2><span>Solutions</span></h2>
+<h1>Services</h1>
+<h2><span>Developments</span></h2>
 			<div class="people">
 				<div>
 					<div class="face">
@@ -475,10 +504,10 @@ function setbg() {
 					</div>
 					<div class="info">
 						<div class="data">
-							<p>Website Build</p>
-							<div>Brand Image design</div><div>Uniform appearance</div><div>High level of Security</div>
-							<div>Load Time optimization</div><div>Multilingual</div><div>Web analytics</div>
-							<div>Graphics</div><div>Animation</div>
+<p>Website Creation</p>
+<div>Corporate Design</div><div>Uniform Appearance</div><div>High Level Security</div>
+<div>Loading Time Optimization</div><div>Multilingual</div><div>Web Analytics</div>
+<div>Graphics</div><div>Animation</div>
 						</div>
 					</div>
 
@@ -491,12 +520,12 @@ function setbg() {
 					</div>
 					<div class="info">
 						<div class="data">
-							<p>Creating WebShop</p>
-							<div>Business Process Automation</div><div>Analysis of Market Trends</div><div>Competitor Analysis</div>
-							<div>Bank card payment integration</div>
-							<div>Billing system integration</div><div>Product parameters</div><div>Filter, Compare</div>
-							<div>Product export/import</div>
-							<div>Multiple languages and currencies</div><div>Delivery Areas</div><div>Warehouse management</div><div>Google Shopping</div>
+<p>Webstore Creation</p>
+<div>Business Process Automation</div><div>Market Trend Analysis</div><div>Competitor Analysis</div>
+<div>Credit Card Payment Integration</div>
+<div>Invoicing System Integration</div><div>Product Parameters</div><div>Filtering, Comparison</div>
+<div>Product Export/Import</div>
+<div>Multiple Languages ​​and Currencies</div><div>Shipping Areas</div><div>Warehouse Management</div><div>Google Shopping</div>
 						</div>
 					</div>
 				</div>
@@ -508,9 +537,9 @@ function setbg() {
 					</div>
 					<div class="info">
 						<div class="data">
-							<p>Search Engine Optimization</p>
-							<div>Keyword research</div><div>Target audience Definition</div><div>On-Site SEO</div>
-							<div>Targeted Textual Content</div><div>Text writing</div><div>Content building</div>
+<p>SEO (Search Engine Optimization)</p>
+<div>Keyword Research</div><div>Target Audience Definition</div><div>Google Optimization</div>
+<div>Targeted Text Content</div><div>Copywriting</div><div>Content Building</div>
 						</div>
 					</div>
 				</div>
@@ -696,31 +725,20 @@ function setbg() {
 			  <path fill="#3F4658" d="M52.2,-23.1C64.8,-8.3,70.2,17.6,60.3,32.8C50.4,48,25.2,52.3,1.3,51.6C-22.6,50.8,-45.1,44.9,-52.1,31.4C-59.1,17.9,-50.6,-3.2,-39.3,-17.2C-28.1,-31.3,-14,-38.3,2.9,-40C19.8,-41.6,39.6,-38,52.2,-23.1Z" transform="translate(100 100)" />
 			</svg>
 			<div class="text">
-				<h1>Synergy</h1>
-				<h2><span>UI/UX</span> Design</h2>
-				<div class="explanation">
-					<p>My goal is to create fast, clean and easy-to-maintain, technologically up-to-date, innovative websites and web applications. <br>
-					My works have a modular structure, so they can be easily expanded in the future. It is important to me that the pages I develop are easy to understand, work intuitively and can be easily used by anyone.
-					</p>
-					<p>I strive to create a web interface that attracts and captures the visitor's attention and does not expose the user to information overload.
-					</p>
-					<div class="actions">
-					<a href="#faq" class="btn"><span>What is UI/UX Design?</span></a>
+<h1>Synergy</h1>
+<h2><span>UI/UX</span> Design</h2>
+<div class="explanation">
+<p>My goal is to create Fast, Clean and easy to maintain, technologically advanced, innovative websites and web applications.</p>
+<p>My work is modular, so it can be easily expanded in the future.
+It is important to me that the sites I develop are easy to understand, work intuitively and can be easily managed by anyone.
+</p>
+<p>I strive to create a web interface that attracts and captures the attention of visitors, but does not expose the user to information overload.
+</p>
+<div class="actions">
+<a href="#faq" class="btn"><span>What is UI/UX Design?</span></a>
 					</div>
-
-				</div><!-- 
-				<div class="actions">
-					<ul class="dropdown">
-						<li><button class="btn_color selected">Whitepaper</button></li>
-						<li><a href="#">Spanish</a></li>
-						<li><a href="#" class="active">Italian</a></li>
-					</ul>
-					<ul class="dropdown">
-						<li><button class="btn_color selected">Onepager</button></li>
-						<li><a href="#">Spanish</a></li>
-						<li><a href="#">Italian</a></li>
-					</ul>
-				</div>  -->
+					
+				</div>
 			</div>
 
 
@@ -769,7 +787,7 @@ function setbg() {
     left: 506px;
     width: 268px;
     opacity: .25; pointer-events: none;
-    transform: rotate(115deg);
+    rotate: 474deg
 }
 .blob-world2 {
     position: absolute;
@@ -862,32 +880,34 @@ function setbg() {
 <img class="lazy world-spots3 floatfast rotatefast" data-src="./assets/tr43.png" style="opacity: .2;">
 <img class="lazy world-spots4" data-src="./assets/dot3.png" style="opacity: .1;">
 
-			<h1>Oriented</h1>
-			<h2>Web <span>Appearance</span></h2>
-			<div class="explanation">
-				<p>In addition to developing a uniform and clean appearance, I strive to ensure that the content creates a positive impression on users in the first moments, providing a pleasant experience.
-Furthermore, to have a web appearance oriented to the target area of the ordering company and its clientele, and that the textual content is relevant and properly developed, also according to the aspects of online marketing.</p>
+<h1>Oriented</h1>
+<h2>Web <span>Appearance</span></h2>
+<div class="explanation">
+<p>In addition to developing a uniform and clean appearance, I strive to ensure that the content makes a positive impression on the visitor from the very first moments.</p>
+<p>Furthermore, the client's business must have a web appearance oriented to its target area and its clientele, and the text content must be relevant and properly developed according to online marketing criteria.</p>
 
-				<p>This synergy allows the website to be able to arouse a minimum of trust and interest at the first visual encounter and with the first paragraphs read. It also allows us to direct the visitor towards critical content.</p>
-				<p>Which can ultimately convert into placing an order or making a customer inquiry, thus increasing business turnover.
-				</p>
-				<p>
-					<div class="actions" style="text-align:center;">
-					<a href="#faq" class="btn_color"><span>Conversion Optimized Website</span></a>
+<p>This synergy allows the website to be able to arouse a minimum of trust and interest upon the first visual encounter and with the first paragraphs read. It also enables you to direct the visitor to critical content.</p>
+
+<p>By optimizing the content and appearance of the website, you can successfully increase your business traffic and increase your Conversion Rate.</p><p>Which ultimately increases the number of orders and customer inquiries.</p>
+
+<p>
+In my work, I combine analytical rigor with free and creative innovation to provide a solution that is fit for purpose, simple and not overly complicated.<br> Cost and Time Efficient, which not only meets the customer's needs, but hopefully exceeds expectations, improving the effectiveness of the business.
+</p>
+<p>
+<div class="actions" style="text-align:center;">
+<a href="#faq" class="btn"><span>Conversion Optimized Website</span></a>
 					</div>
-				</p>
-				<p>
-					In my work, I combine analytical rigor with free and creative innovation in order to provide a solution that meets the goal, is simple and not overcomplicated.
-Cost and Time Efficient, which not only meets the customer's needs, but hopefully also exceeds expectations, improving the effectiveness of the business.
-				</p>
-				<p>
-					My goal is to create useful and efficient digital products and services.
+
 				</p>
 
 			 </div>
 
 		</div>
 	</div><!-- /world-->
+
+
+
+
 
 
 
@@ -909,31 +929,31 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 				<div class="steps">
 					<div>
 						<div class="number"><img class="lazy" style="width: 200px;" data-src="./assets/ui1.webp" alt=""></div>
-						<p>Online Marketing and Business Strategy plan.</p>
-						<p>Easier development of PHP and Javascript applications.</p>
-						<p>Web Applications</p>
-						<p>Business Process Automation</p>
-						<p>Graphics, Animation</p>
-					</div>
-					<div>
-						<div class="number"><img class="lazy" style="width: 200px;" data-src="./assets/ui4.webp" alt=""></div>
-						<p>UI/UX - User Interface Design.</p>
-						<p>Brand Image Design</p>						
-						<p>CRM </p>
-						<p>Email marketing</p>
-						<p>Online Product Calculator</p>
-						<p>Online appointment booking system</p>
-					</div>
-					<div>
-						<div class="number"><img class="lazy" style="width: 200px;" data-src="./assets/ui5.webp" alt=""></div>
-						<p>Web Analytics, Performance Audit and Data Analysis.</p>
-						<p>Online Ads, Google Ads</p>
-						<p>Load time Optimization</p>
-						<p>Domain / E-mail / Storage administration</p>
-						<p>Quotation request form</p>
+<p>Online Marketing and Business Strategy</p>
+<p>PHP and Javascript Program Development</p>
+<p>Web Applications</p>
+<p>Business Process Automation</p>
+<p>Graphics / Animation</p>
+</div>
+<div>
+<div class="number"><img class="lazy" style="width: 200px;" data-src="./assets/ui4.webp" alt=""></div>
+<p>UI/UX User Interface</p>
+<p>Brand Identity Design</p>
+<p>CRM</p>
+<p>Email Marketing</p>
+<p>Online Product Calculator</p>
+<p>Online Appointment Booking</p>
+</div>
+<div>
+<div class="number"><img class="lazy" style="width: 200px;" data-src="./assets/ui5.webp" alt=""></div>
+<p>Web Analytics, Performance Audit and Data Analysis</p>
+<p>Online Advertising<br>Google Ads</p>
+<p>Loading Time Optimization</p>
+<p>Domain / Email / Hosting Management</p>
+<p>Quote Request Form</p>
 					</div>
 				</div>
-				<h1>Full Execution</h1>
+				<h1> </h1>
 				
 				<div class="actions" style="pointer-events: none;">
 					.
@@ -941,10 +961,6 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 			</div>
 		</div>
 	</div><!--/sales-->
-
-
-
-
 
 
 
@@ -1078,8 +1094,8 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
     display: flex; 
     background: linear-gradient(var(--gradient-angle),rgb(22, 69, 244), rgb(40, 53, 74));
     border-radius: 2px;
-    animation: rotation 5s linear 0s infinite normal forwards;
-    backdrop-filter: blur(50px);
+    animation: rotation 1s linear 0s infinite normal forwards;
+    backdrop-filter: blur(10px);
 }
 .gradient-content-card {
     margin: auto;
@@ -1134,8 +1150,8 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 <img class="lazy team2-spots1 floatfast rotatefast" data-src="./assets/home_06_icon_22.png" style="opacity: 1;">
 <img class="lazy team2-spots2 floatfast rotatefast" data-src="./assets/circle-colored.png" style="opacity: 1;">
 <img class="lazy team2-spots3" data-src="./assets/circle-dots.png" style="opacity: 1;">
-			<h1>Optimized</h1>
-			<h2><span>Creative</span> Creations</h2>
+<h1>Optimized</h1>
+<h2><span>Creative</span> Creations</h2>
 			<div class="people">
 
 				<div class="gradient-card" style="animation: rotation 15s linear 0s infinite normal forwards;">
@@ -1145,12 +1161,12 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 						</div>
 						<div class="info">
 							<div class="data">
-								<div>Easy to use</div>
-								<div>Clear</div>
-								<div>Transparent</div>
-								<div>Modular</div>
-								<div>User-friendly</div>
-								<div>Mobile Optimized</div>
+<div>Easy to Use</div>
+<div>Clean</div>
+<div>Transparent</div>
+<div>Modular</div>
+<div>User Friendly</div>
+<div>Mobile Optimized</div>
 							</div>
 						</div>
 					</div>
@@ -1163,12 +1179,12 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 					</div>
 					<div class="info">
 						<div class="data">
-							<div>Creative graphic design</div>
-							
-							<div>Screen Optimized</div>
-							<div>High level of security</div>
-							<div>Fast loading time</div>
-							<div>Easy to edit</div>
+<div>Creative Design</div>
+<div>Uniform Design</div>
+<div>Screen Optimized</div>
+<div>High Security</div>
+<div>Fast Loading Time</div>
+<div>Easy to Edit</div>
 						</div>
 					</div>
 				</div>
@@ -1181,19 +1197,19 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 					</div>
 					<div class="info">
 						<div class="data">
-							<div>Conversion Optimized</div>
-							<div>Uniform color and Uniform design</div>
-							<div>Browser Independent</div>
-							<div>Extensible</div>
-							<div>Multilingual</div>
-							<div>Google Optimized</div>
+<div>Conversion Optimized</div>
+<div>Search Engine Optimized</div>
+<div>Google Optimized</div>
+<div>Cross-Browser Independent</div>
+<div>Extensible</div>
+<div>Multilingual</div>
 						</div>
 					</div>
 				</div>
 				</div>
 			</div>
 		</div>
-	</div>    <!--/team-->
+	</div>    
 
 
 
@@ -1265,16 +1281,14 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 <img class="earn-spot2 floatfast rotatefast" src="./assets/54d.png" style="">
 			<div class="text">
 				<h1 style="font-size: 85px;">Full Stack</h1>
-				<h2><span>Design Process</span></h2>
-				<div class="explanation">
-					<p>I try to use the latest and most effective technological tools, as well as thoroughly learn and use the best practices and technical knowledge during my work.
-					I always focus on delivering solutions that meet the specific needs and business goals of my clients.</p>
-					<p>At the end of the chain, the focus of design considerations is always the end user.</p>
-					<p>I provide my services as a Full Stack developer and am happy to work with any size business or agency.</p>
-					<div class="actions">
-					<a href="#faq" class="btn"><span>Full Stack Developer</span></a>
+<h2><span>Developments</span></h2>
+<div class="explanation">
+<p>I strive to use the latest and most effective technological tools, as well as thoroughly master and use the best methods and technical knowledge during my work.</p>
+<p>I focus on delivering solutions that meet the specific needs and business goals of my clients.</p>
+<p>I provide my services as a Full Stack Developer and am happy to work with businesses or agencies of any size.</p>
+<div class="actions">
+<a href="#faq" class="btn"><span>Full Stack Developer</span></a>
 					</div>
-					<p>In my spare time, I like to travel, hike, explore special natural landscapes, and I am also a fan of visual arts and music.</p>
 				</div>
 			</div>
 			<div class="apps" style="height: 803px;">
@@ -1324,6 +1338,8 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 
 
 
+
+
 <style>
 .token {
     padding-top: 320px;
@@ -1341,11 +1357,11 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 }
 .blob1-token {
     position: absolute;
-    top: -231px;
-    right: -199px;
-    width: 353px;
+    top: -207px;
+    right: -151px;
+    width: 390px;
     opacity: .35; pointer-events: none;
-    transform: rotate(20deg); pointer-events: none;
+    rotate: 32deg;
 }
 .spot1-token {
     position: absolute;
@@ -1406,28 +1422,31 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 <img class="lazy spot2-token floatfast rotatefast" data-src="./assets/54d.png" style="">
 
 			<div class="text">
-				<h2>Portals <span></span></h2>
-				<div class="explanation">Operation and design in accordance with the purpose</div>
-				<div class="legend">
-					<div>
-						<p>Business website</p>
-						<p>Web store <span></span></p>
-						<p>Microsite</p>
-						<p>News</p>
-						<p>Blog <span style="color: #3eafff;">(with a unique design)</span></p>
-						<p>Institutional website</p>
-						<p>Catalog system</p>
-					</div>
-					<div>
-						<p>Introductory website</p>
-						<p>Landing page</p>
-						<p>Online Magazine</p>
-						<p>Web portal</p>
-						<p>Corporate website</p>
-						<p>Portfolio</p>
-						<p>Forum</p>
+
+
+<h2>Portals <span></span></h2>
+<div class="explanation">Functionality and design that meets the purpose</div>
+<div class="legend">
+<div>
+<p>Business website</p>
+<p>Webshop <span></span></p>
+<p>Microsite</p>
+<p>News page</p>
+<p>Blog <span style="color: #3eafff;">(with unique appearance)</span></p>
+<p>Institutional website</p>
+<p>Catalog system</p>
+</div>
+<div>
+<p>Introduction website</p>
+<p><span style="color: #3eafff;">Landing page</span></p>
+<p>Online Magazine</p>
+<p>Web portal</p>
+<p>Corporate website</p>
+<p>Portfolio</p>
+<p>Forum</p>
 					</div>
 				</div>
+				
 			</div>
 			<div class="chart" style="display: block; margin: 0 auto;">
 			<img class="lazy profil" width="150" height="150" data-src="./assets/profil.webp" style="">
@@ -1472,7 +1491,7 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 }
 .blob2-mission {
     position: absolute;
-    top: -215px;
+    top: -260px;
     right: 19px;
     width: 287px;
     opacity: .2; pointer-events: none;
@@ -1615,16 +1634,20 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 <img class="lazy spot6-mission floatfast rotatefast" data-src="./assets/home_06_icon_22.png" style="">
 			<div class="text">
 				<h1 style="font-size: 85px;">+1 </h1>
-				<h2><span>Dimension</span></h2>
-				<div class="explanation">
-					<p>I also welcome inquiries from private individuals. My medium-term goal is to expand my professional experience, acquire strong professional foundations, and build a solid knowledge base and professional network.</p>
-					<p>With my knowledge and solid aspiration, I help those clients who are looking for cooperation, who are ready to think and create together.</p>
-					<p>I am happy to work with those who want to create value and open up to a wider, more spacious market area in the online space. I help them to raise the operation and visibility of their business to a new dimension, to a higher level.</p>
+<h2><span>Dimension</span></h2>
+<div class="explanation">
+<p>I also welcome inquiries from individuals. My long-term goal is to expand my professional experience, acquire strong professional foundations and build a solid knowledge base.</p>
+<p>With my knowledge and solid ambition, I help those clients who are looking for cooperation, are ready to think and create together.</p>
+<p>I am happy to work with those who want to create value and open up to a wider, more spacious market area in the online space. I help them to raise the operation and visibility of their business to a new dimension, to a higher level.</p>
 				</div>
 			</div>
 			<div class="picture"><img class="lazy" data-src="./assets/sdnew.webp" alt=""></div>
 		</div>
 	</div><!--/mission-->
+
+
+
+
 
 
 
@@ -1712,6 +1735,8 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 
 
 
+
+
 <style>
 .faq {
   padding-top: 390px;
@@ -1746,12 +1771,12 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 </svg>
 
 					</div>
-					<h3>Full stack developer</h3>
-				</div>
-				<div class="answer">
-					<p style="padding-bottom: 16px;">The full stack developer has the functional knowledge and ability to turn the client's entire work concept into a finished product. The full stack developer must have knowledge in front end and back end, different development areas.</p>
-					<p>Front-end developers build the visible parts of applications that users see and interact with. The Back-end developer, on the other hand, is responsible for the construction of the parts not visible to the user, which include the basic operating logic, the admin interface, the web server and database management.
-					</p>
+<h3>Full stack developer</h3>
+</div>
+<div class="answer">
+<p style="padding-bottom: 16px;">A full stack developer has the functional knowledge and skills to turn a client's entire work concept into a finished product. A full stack developer must have knowledge in both the front end and back end, different areas of development.</p>
+<p>A front-end developer builds the visible parts of applications that users see and interact with. A back-end developer, on the other hand, is responsible for building the parts that are not visible to the user, which include the basic operating logic, the admin interface, the web server, and database management.
+</p>
 
 				</div>
 			</div>
@@ -1764,10 +1789,10 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 <path d="M4 9L20 9M8 9V20M6.2 20H17.8C18.9201 20 19.4802 20 19.908 19.782C20.2843 19.5903 20.5903 19.2843 20.782 18.908C21 18.4802 21 17.9201 21 16.8V7.2C21 6.0799 21 5.51984 20.782 5.09202C20.5903 4.71569 20.2843 4.40973 19.908 4.21799C19.4802 4 18.9201 4 17.8 4H6.2C5.0799 4 4.51984 4 4.09202 4.21799C3.71569 4.40973 3.40973 4.71569 3.21799 5.09202C3 5.51984 3 6.07989 3 7.2V16.8C3 17.9201 3 18.4802 3.21799 18.908C3.40973 19.2843 3.71569 19.5903 4.09202 19.782C4.51984 20 5.07989 20 6.2 20Z" stroke="#4296FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 					</div>
-					<h3>UI/UX Design</h3>
-				</div>
-				<div class="answer">
-					<p style="padding-bottom: 16px;">User Experience and User Interface (UI/UX) design is the design of the process that a person experiences when interacting with a product. UX design focuses on the interaction between the human user and the product.</p><p>Its purpose is to provide a planned user experience for the visitor. If the user feels while visiting the website that it is easy to manage, easy to understand and logically structured, then the ux designer has done a good job.</p>
+<h3>UI/UX Design</h3>
+</div>
+<div class="answer">
+<p style="padding-bottom: 16px;">User experience and interface (UI/UX) design is the design of the process that a person experiences when interacting with a product. UX design focuses on the interaction between the human user and the product.</p><p>It aims to provide a designed user experience for the visitor. If the user feels while visiting the website that it is easy to use, easy to understand and logically structured, then the ux designer has done a good job.</p>
 				</div>
 			</div>
 
@@ -1778,10 +1803,10 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 						<svg style="width: 30px; position: relative; top: 7px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 54.17">
 							<g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="shopping_cart-2" data-name="shopping cart-2"><path d="M42.6,38H23.31A10.52,10.52,0,0,1,13,29.52L9.21,9.9A5.49,5.49,0,0,0,4.92,5.56L2,5A2.5,2.5,0,0,1,3,.05L5.94.66A10.48,10.48,0,0,1,14.12,9l3.79,19.62A5.5,5.5,0,0,0,23.31,33H42.6a5.53,5.53,0,0,0,5.14-3.53l6.43-16.77a2.5,2.5,0,1,1,4.66,1.79L52.41,31.29A10.57,10.57,0,0,1,42.6,38Z" fill="#4296FF"/><circle cx="42.32" cy="49.17" r="5" fill="#4296FF"/><circle cx="22.68" cy="49.17" r="5" fill="#4296FF"/><path d="M33.56,21.14h0a2.51,2.51,0,0,1-1.77-.73l-9.61-9.62a2.5,2.5,0,0,1,3.53-3.53l7.85,7.85L47.93.73a2.5,2.5,0,1,1,3.54,3.54L35.33,20.41A2.51,2.51,0,0,1,33.56,21.14Z" fill="#4296FF"/></g></g></g></svg>
 					</div>
-					<h3>Conversion Optimized Website</h3>
-				</div>
-				<div class="answer">
-					<p style="padding-bottom: 16px;">Website conversion rate optimization (CRO - Conversion Rate Optimization) is the practice of increasing the percentage of users who perform a desired action on a website. The desired actions, also known as conversions, can be the purchase of a product or the filling out of a form, a customer inquiry or the use of a service.</p><p>Successful CRO strategies aim to increase conversions by focusing on user experience and optimized content.</p> 
+<h3>Conversion Optimized Website</h3>
+</div>
+<div class="answer">
+<p style="padding-bottom: 16px;">Conversion Rate Optimization (CRO) is the practice of increasing the percentage of users who take a desired action on your website. The desired actions, also known as conversions, can be purchasing a product, filling out a form, contacting a customer, or using a service.</p><p>Successful CRO strategies aim to increase conversions by focusing on user experience and optimized content.</p> 
 				</div>
 			</div>
 
@@ -1792,24 +1817,6 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 
 
 
-<!--
-	<div class="join_us hidden visible animated fadeIn" style="display:none; height:0;">
-		<div class="centered">
-			<div class="text">
-				<h1>Join</h1>
-				<h2>Join Us in <span>Telegram</span></h2>
-				<div class="explanation">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							In nec nibh vitae erat efficitur faucibus. Duis tincidunt, 
-							ex in matytis viverra.</p>
-				</div>
-				<div class="actions">
-					<a href="#" class="btn_color">Learn More</a>
-				</div>
-			</div>
-			<div class="picture"><img src="./assets/join_us.pngggg" alt=""></div>
-		</div>
-	</div>--> <!-- /join_us-->
 </div>
 
 
@@ -1833,16 +1840,16 @@ Cost and Time Efficient, which not only meets the customer's needs, but hopefull
 /* gt3-theme/bubble*/
 .bubbles_wrap{position:fixed;left:0;top:0;width:100%;height:100%;z-index:9999;overflow:hidden;pointer-events:none}@-webkit-keyframes animateBubble{0%{margin-top:20%}to{margin-top:-30%}}@-moz-keyframes animateBubble{0%{margin-top:20%}to{margin-top:-30%}}@keyframes animateBubble{0%{margin-top:20%}to{margin-top:-30%}}@-webkit-keyframes sideWays{0%{margin-left:0}to{margin-left:25px}}@-moz-keyframes sideWays{0%{margin-left:0}to{margin-left:25px}}@keyframes sideWays{0%{margin-left:0}to{margin-left:25px}}
 .x1{-webkit-animation:animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;animation:animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;left:6%;top:45%;background:#60768f}
-.x2{-webkit-animation:animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;animation:animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;left:5%;top:80%;background:#fc4fdd}
-.x3{-webkit-animation:animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;animation:animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;left:10%;top:40%;background:#00b3fc}
+.x2{-webkit-animation:animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;animation:animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;left:5%;top:80%;background:#FF2673}
+.x3{-webkit-animation:animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;animation:animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;left:10%;top:40%;background:#60768f}
 .x4{-webkit-animation:animateBubble 12s linear infinite,sideWays 3s ease-in-out infinite alternate;animation:animateBubble 12s linear infinite,sideWays 3s ease-in-out infinite alternate;left:20%;top:0;background:#5a718a}
 .x5{-webkit-animation:animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;animation:animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;left:30%;top:50%;background:#5a718a}
 .x6{-webkit-animation:animateBubble 11s linear infinite,sideWays 2s ease-in-out infinite alternate;animation:animateBubble 11s linear infinite,sideWays 2s ease-in-out infinite alternate;left:50%;top:0;background:#0095ff}
 .x7{-webkit-animation:animateBubble 10s linear infinite,sideWays 2s ease-in-out infinite alternate;animation:animateBubble 10s linear infinite,sideWays 2s ease-in-out infinite alternate;left:65%;top:70%;background:#647ea2}
 .x8{-webkit-animation:animateBubble 12s linear infinite,sideWays 3s ease-in-out infinite alternate;animation:animateBubble 12s linear infinite,sideWays 3s ease-in-out infinite alternate;left:80%;top:10%;background:#7b899c}
 .x9{-webkit-animation:animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;animation:animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;left:90%;top:50%;background:#647ea2}
-.x10{-webkit-animation:animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;animation:animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;left:80%;top:80%;background:#da428e}
-.bubble{border-radius:50%;box-shadow:none;height:5px;position:absolute;width:5px}
+.x10{-webkit-animation:animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;animation:animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;left:80%;top:80%;background:#FF186C}
+.bubble{border-radius:10%;box-shadow:none;height:5px;position:absolute;width:5px; opacity: 0.7;}
 </style>
 
 
