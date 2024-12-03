@@ -66,6 +66,7 @@ body p {
     line-height: 27px;
     font-weight: 400;
     color: #d7deed;
+    letter-spacing: 1px;
 }
 ul li {
     font-family: "Rubik", Sans-serif;
@@ -73,9 +74,16 @@ ul li {
     line-height: 27px;
     font-weight: 400;
     color: #e6e8ed;
-
+    letter-spacing: 2px;
 }
-
+h4 {
+    font-family: "Rubik", Sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #e6e8ed;
+}
 
 
 
@@ -1281,7 +1289,7 @@ h2 {
 
   h2 {
     font-size: 30px;
-    margin-top: -15px; 
+    margin-top: -6px; 
     text-align: center;}
 
   .explanation {
@@ -1802,7 +1810,7 @@ footer {
           cursor: pointer; }
         .faq .centered .item .head h3 {
           padding-left: 88px;
-          font-size: 15px;
+          font-size: 14px; letter-spacing: 1px;
           line-height: 130%;
           padding-top: 15px;
           color: #ebedff;
