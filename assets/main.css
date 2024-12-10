@@ -517,7 +517,7 @@ url("../img/controls.png")
   /*text-align: left !important;*/
 }
 .team .people > div .face {
-  height: 65px !important;
+            height: 0px !important;
   padding: 30px 20px 0 15px;
 }
 .team .people > div .info {
@@ -525,7 +525,7 @@ url("../img/controls.png")
     background: unset !important;
 }
 .team .people > div .info {
-    height: 200px !important;
+    height: 333px  !important;
     padding: 5px 20px 0 20px !important;
 }
 .team .people > div .info img {
@@ -1277,11 +1277,13 @@ h2 {
 
 @media (max-width: 1140px) {
   h1 {
-    font-size: 100px; }
+    font-size: 100px;
+    text-align: center; }
 
   h2 {
     font-size: 37px;
-    margin-top: -15px; } }
+    margin-top: -15px; 
+    text-align: center;} }
 @media (max-width: 768px) {
   h1 {
     font-size: 55px; 
@@ -1507,7 +1509,7 @@ footer {
     text-align: center;
     padding-bottom: 40px;
     z-index: 2;
-    position: relative; }
+    position: relative; padding-left: 0px; }
     .how_it_works .text h1 {
       margin-left: 0; }
 
@@ -2093,7 +2095,7 @@ footer {
   .world {
     padding-top: 70px; }
     .world .centered {
-      width: 280px; }
+      width: 330px;              padding: 0 0px; }
     .world .explanation {
       padding-bottom: 10px; }
     .world .picture {
@@ -2345,7 +2347,7 @@ footer {
 @media (max-width: 1210px) {
   .team .people {
     width: 746px;
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
     float: none; }
     .team .people > div:nth-child(3n + 2) {
@@ -2366,7 +2368,7 @@ footer {
             font-size: 16px; }
           .team .people > div .info .data div {
             font-size: 14px; }
-        .team .people > div .face {
+        .team .people > div .face { 
           height: 300px; }
           .team .people > div .face img {
             width: 100%; }
@@ -2386,7 +2388,8 @@ footer {
       width: 300px; }
       .team .people > div {
         margin-left: 0 !important;
-        margin-right: 0 !important; } }
+        margin-right: 0 !important; } 
+      }
 @media (max-width: 400px) {
   .team .show_all {
     padding-top: 60px; }
