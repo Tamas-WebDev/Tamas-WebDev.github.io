@@ -202,6 +202,72 @@ ul.list li {
 
 
 
+/* text Gradient  */
+.textGradientRed {
+  background: linear-gradient(75deg, #ff4c6c, #fa9d4d 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.textGradientblueD {
+  background: linear-gradient(75deg, #003A76, #184E97 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+
+/* text color */
+.colorblue {
+  color: #00366F;
+}
+
+/* font*/
+.montserrat {
+  font-family: "Montserrat", Sans-serif !important;
+  font-weight: 800;
+}
+
+
+/* text highlight */
+.highlight {
+  display: inline-block;
+  padding: .05em .3em .12em .3em;
+  background: #ffffff;
+  /*box-shadow: .15em 0 0 #ffffff, -.15em 0 0 #ffffff;*/
+  border-radius: 20px;
+  margin-left: .01em;
+  margin-right: .01em;
+}
+.highlight-container {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
